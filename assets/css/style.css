@@ -222,7 +222,8 @@ textarea {
   }
 
   .form-outline > input[type='text'],
-  input[type='email'] {
+  input[type='email'],
+  textarea {
     width: 40.75rem !important;
   }
 }
