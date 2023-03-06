@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS Links-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Icons-->
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+
+    <!--Js-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header id="home">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg py-2">
+                <a class="navbar-brand logo" href="index.html">Silvares</a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link active">About</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"
+                                id="dropdownLink">
+                                Services
+
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownLink">
+                                <li><a class="dropdown-item" href="#">Design</a></li>
+                                <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Developer</a></li>
+                            </ul>
+
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link active">Projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link active">Contact</a>
+                        </li>
+
+                        </li>
+
+                    </ul>
+
+                    <a href="#contact" class="phone">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Jumbotron -->
+        <div class="hero-center text-center rounded-3">
+            <div class="container d-flex justify-content-center align-items-center h-100">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        <a href="#about" class="avatar">
+                            <img src="./assets/images/hero.jpg" alt="">
+                        </a>
+
+                        <h1 class="hero-1 mb-3">Hello friend!</h1>
+                        <h2 class="hero-2 mb-3">I'm available for new experiences with Bootstrap.
+                        </h2>
+
+                        <a href="#about" class="btn btn-outline-primary btn-lg">Let's Begin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End jumbotron -->
+    </header>
+
+    <section id="about" class="about rounded-4">
+        <div class="container text-center justify-content-center align-items-center h-100">
+            <!-- <div class="title-2">
+                A Little Bit About Me
+            </div> -->
+
+            <div class="about-content container d-flex justify-content-start align-items-center h-100">
+                <a href="#home" class="avatar-sml">
+                    <img src="./assets/images/hero.jpg" alt="">
+                </a>
+                <h1 class="title">About Me</h1>
+
+            </div>
+
+            <div class="paragraph">
+                <p>
+                    Hello, I’m Agutembergues. My relationship with coding started when I finished my Graduation System
+                    Analist fell years ago, and has become my purpose life. On this website, you’ll discover some of my
+                    most
+                    challenging and about my journey.
+                </p>
+            </div>
+
+            <div class="skills">
+                <div class="row">
+                    <div class="col-sm title-2">Birthday</div>
+                    <div class="col-sm title-2">17/03/1980</div>
+                    <div class="w-100"></div>
+                    <div class="col-sm title-2">Phone</div>
+                    <div class="col-sm title-2">+44 07743339036</div>
+                    <div class="w-100"></div>
+                    <div class="col-sm title-2">City</div>
+                    <div class="col-sm title-2">Birmingham, UK</div>
+                    <div class="w-100"></div>
+                    <div class="col-sm title-2">Degree</div>
+                    <div class="col-sm title-2">System Analist</div>
+                </div>
+            </div>
+    </section>
+
+    <section class="links d-flex flex-column text-center">
+        <a href="#home" class="avatar-sml">
+            <img src="./assets/images/aerial-view-man-using-computer-laptop-wooden-table.jpg" alt="">
+        </a>
+        <div class="title-2">
+            My Journey I've had worked
+        </div>
+        <div class="container d-flex text-center justify-content-between align-items-center h-100">
+
+            <a href="https://www.w3schools.com/html/" target="_blank" class="links-content">
+                <img src="./assets/images/html5.svg" alt="html" title="HTML">
+            </a>
+
+            <a href="https://www.w3schools.com/css/" target="_blank" class=" links-content">
+                <img src="./assets/images/css3.svg" alt="CSS3" title="CSS3" ">
+            </a>
+
+            <a href=" https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" class=" links-content">
+                <img src="./assets/images/grid-outline.svg" alt="css grid" title="CSS Grid">
+            </a>
+
+            <a href="https://getbootstrap.com" class="links-content" target="_blank">
+                <img src=" ./assets/images/bootstrap.svg" alt="Bootstrap" title="Bootstrap">
+            </a>
+        </div>
+    </section>
+
+    <!-- section.projects -->
+    <section id="projects" class="projects rounded-4 justify-content-center">
+        <div class="container d-flex text-center about-content justify-content-end align-items-center h-100">
+            <a href="#home" class="avatar-sml">
+                <img src="./assets/images/aerial-view-man-using-computer-laptop-wooden-table.jpg" alt="">
+            </a>
+            <h1 class="title">
+                Projects
+            </h1>
+        </div>
+
+        <div class="container text-center">
+            <div class="row d-flex justify-content-center align-center">
+                <div class="col-sm-4" id="col">
+                    <h3 class="title-3">
+                        Project Navbar
+                    </h3>
+                    <div class="title-2">
+                        Bootstrap
+                    </div>
+
+                    <a href="" class="row-img">
+                        <img src="./assets/images/page1.png" alt="page 1">
+                    </a>
+                </div>
+
+                <div class="col-sm-3" id="col">
+                    <h3 class=" title-3">
+                        Template Website
+                    </h3>
+                    <div class="title-2">
+                        Flex
+                    </div>
+
+                    <a href="https://gutemsilvares.github.io/module-2-challenge/" target="_blank"" class=" row-img">
+                        <img src="./assets/images/page2.png" alt="page 1">
+                    </a>
+                </div>
+                <div class="col-sm-4" id="col">
+                    <h3 class=" title-3">
+                        Landing Page
+                    </h3>
+                    <div class="title-2">
+                        CSS Grid
+                    </div>
+
+                    <a href="#" class="row-img">
+                        <img src="./assets/images/page4.png" alt="page 1">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div id="contact" class="contact rounded-4 justify-content-center">
+            <div class="container d-flex text-center about-content justify-content-start align-items-center h-100">
+                <a href="#home" class="avatar-sml">
+                    <img src="./assets/images/white-desk-work-study-aesthetics.jpg" alt="">
+                </a>
+                <h1 class="title">
+                    Say Hi
+                </h1>
+            </div>
+
+            <div class="container d-flex justify-content-start align-items-center">
+                <div class="form-bg">
+
+                    <form class="form-center ">
+                        <!-- Email input -->
+                        <div class="form-outline mb-4 ">
+                            <!-- <label class="form-label" for="form1Example1">Email address</label> -->
+                            <input type="text" id="form1Example1" class="form-control" placeholder="Name" />
+                            <label for="#"></label>
+                            <input type="email" id="form1Example1" class="form-control" placeholder="Email Address" />
+                            <div class="textarea">
+                                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                    </form>
+                    <div class="d-flex justify-content-start align-items-center">
+                        <a class="btn btn-primary">Send</a>
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+
+    <div class="copyright container d-flex justify-content-center align-items-center h-100">
+        <div class="paragraph copy">
+            <p>
+                Copyright &copy 2023 <strong>My Portfolio.</strong> All rights reserved.
+            </p>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
