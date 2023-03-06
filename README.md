@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/gutemsilvares)
+- Solution URL: [Add solution URL here](https://github.com/gutemsilvares/bootstrap-portfolio/)
 - Live Site URL: [Add live site URL here](https://gutemsilvares.github.io/bootstrap-portfolio/)
 
 ## My process
